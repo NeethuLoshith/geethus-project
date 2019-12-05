@@ -19,7 +19,6 @@ public class DPR_ADV_001 {
 
 		Keywords.wait_for_xpath(DPR_ADV_001_Elements.MANAGE);
 		Keywords.click_element(DPR_ADV_001_Elements.MANAGE);
-				
 		
 	}
 
