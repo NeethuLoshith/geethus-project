@@ -1,18 +1,17 @@
 package com.testcases;
 
-import static org.testng.Assert.assertTrue;
-
-import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.commonlibrary.Browser;
+import com.commonlibrary.Keywords;
 import com.inputdata.DPR_ADV_001_Data;
 import com.locators.DPR_ADV_001_Elements;
 import com.projectlibrary.DPR_ADV_001;
 
 public class DPR_ADV_001_Test {
 
-	DPR_ADV_001 ADV_TC001 = new DPR_ADV_001();
+	DPR_ADV_001 AdvTC001 = new DPR_ADV_001();
 
 	@Test
 
@@ -22,18 +21,18 @@ public class DPR_ADV_001_Test {
 
 		Browser.navigate_to(DPR_ADV_001_Data.URL);
 
-		ADV_TC001.CheckAdvertiserLink();
-
-		assertTrue(isElementPresent(By.xpath(DPR_ADV_001_Elements.ADVLINK)));
+		AdvTC001.CheckAdvertiserLink();
+		
+		//Compare expected href with actual
+		
+		Assert.assertEquals(Keywords.get_attribute(DPR_ADV_001_Elements.ADVLINK, DPR_ADV_001_Data.VALUE), DPR_ADV_001_Data.EXPECTED);
+		
+		
+		
 	}
 
 	
-	private boolean isElementPresent(By xpath) 
-	{		
-		return false;
-	}
-
-	
+		
 
 
 }

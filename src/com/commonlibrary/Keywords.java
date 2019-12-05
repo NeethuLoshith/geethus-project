@@ -29,45 +29,17 @@ public class Keywords {
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
 	}
 
-	
-	public static void dropdown_click(String locator,String locator1)
-	{
-
-		Select select=new Select(BrowserDrivers.driver.findElement(By.xpath(locator)));
-		select.selectByValue(locator1);
-	}
-
-	public static void sendkeys_dropdown(String locator,String value,String locator1)
-	{
-		BrowserDrivers.driver.findElement(By.xpath(locator)).sendKeys(value);
-		BrowserDrivers.driver.findElement(By.xpath(locator1)).click();
-	}
-
-	public static void dropdown_visibletext(String locator,String value)
-	{
-		Select select=new Select(BrowserDrivers.driver.findElement(By.xpath(locator)));
-		select.selectByVisibleText(value);
-	}
-
 	public static String get_attribute(String locator,String value)
 	{
 		WebElement element=BrowserDrivers.driver.findElement(By.xpath(locator));
 		return element.getAttribute(value);
 
 	}
-
-	public static String get_text(String locator)
-
-	{
-		WebElement element=BrowserDrivers.driver.findElement(By.xpath(locator));
-		return element.getText();
-	}
-
-	public static void clear(String locator)
 	
-	{
-		BrowserDrivers.driver.findElement(By.xpath(locator)).clear();
+	public static String get_currentURL() {
+		
+		return BrowserDrivers.driver.getCurrentUrl();
 	}
 	
 	
-}
+	}
