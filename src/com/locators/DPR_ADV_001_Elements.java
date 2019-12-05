@@ -6,9 +6,9 @@ public class DPR_ADV_001_Elements {
 	
 	public static String PASSWORD = "//input[@placeholder='Password']";
 	
-	public static String SIGNIN = "//span[contains(text(),'Sign in')]";
+	public static String SIGNIN = "//button[@class='mat-primary full-width mb-1 mat-raised-button']";
 	
 	public static String MANAGE = "//span[contains(text(),'MANAGE')]";
 	
-	public static String ADVLINK = "//a[@href='#/advertiser/listadvertiser']";
+	public static String ADVLINK = "//a[@ng-reflect-router-link='/advertiser/listadvertiser']";
 }
