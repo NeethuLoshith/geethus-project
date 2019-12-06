@@ -41,5 +41,13 @@ public class Keywords {
 		return BrowserDrivers.driver.getCurrentUrl();
 	}
 	
+	public static String get_text(String locator)
+
+	{
+		WebElement element=BrowserDrivers.driver.findElement(By.xpath(locator));
+
+		return element.getText();
+	}
+
 	
 	}
