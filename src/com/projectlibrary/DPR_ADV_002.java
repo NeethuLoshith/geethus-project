@@ -9,7 +9,7 @@ public class DPR_ADV_002 {
 
 		Keywords.wait_for_xpath(DPR_ADV_001_Elements.ADVLINK);
 		Keywords.click_element(DPR_ADV_001_Elements.ADVLINK);		
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 	}
 }
