@@ -2,8 +2,6 @@ package com.locators;
 
 public class DPR_ADV_004_Elements {
 	
-	public static String DETAILS_icon = "//mat-row[1]//mat-cell[7]//mat-icon[1]";
-
 	public static String CLOSEBTN = "//button[@class='popup_cancel_btn mat-button mat-warn']";
 	
 	public static String VAT = "//th[@class='mat-header-cell cdk-column-vat mat-column-vat ng-star-inserted']";

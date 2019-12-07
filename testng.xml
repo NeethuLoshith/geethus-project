@@ -2,12 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      
+    <classes>     
+     
       <class name="com.testcases.DPR_ADV_001_Test"/>
       <class name="com.testcases.DPR_ADV_002_Test"/>
       <class name="com.testcases.DPR_ADV_003_Test"/>
-      <class name="com.testcases.DPR_ADV_004_Test"/>
+       <class name="com.testcases.DPR_ADV_005_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
