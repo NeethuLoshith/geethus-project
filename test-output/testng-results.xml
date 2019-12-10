@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="77612" started-at="2019-12-10T09:48:14Z" finished-at="2019-12-10T09:49:32Z">
+  <suite name="Suite" duration-ms="59702" started-at="2019-12-10T16:36:04Z" finished-at="2019-12-10T16:37:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="77612" started-at="2019-12-10T09:48:14Z" finished-at="2019-12-10T09:49:32Z">
-      <class name="com.testcases.DPR_ADV_006_Test">
-        <test-method status="PASS" signature="DPR_ADV_006()[pri:0, instance:com.testcases.DPR_ADV_006_Test@5d5eef3d]" name="DPR_ADV_006" duration-ms="1159" started-at="2019-12-10T09:49:31Z" finished-at="2019-12-10T09:49:32Z">
+    <test name="Test" duration-ms="59702" started-at="2019-12-10T16:36:04Z" finished-at="2019-12-10T16:37:04Z">
+      <class name="com.testcases.DPR_ADV_007_Test">
+        <test-method status="PASS" signature="DPR_ADV_007()[pri:0, instance:com.testcases.DPR_ADV_007_Test@5d5eef3d]" name="DPR_ADV_007" duration-ms="73" started-at="2019-12-10T16:37:04Z" finished-at="2019-12-10T16:37:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DPR_ADV_006 -->
-      </class> <!-- com.testcases.DPR_ADV_006_Test -->
+        </test-method> <!-- DPR_ADV_007 -->
+      </class> <!-- com.testcases.DPR_ADV_007_Test -->
       <class name="com.testcases.DPR_ADV_002_Test">
-        <test-method status="PASS" signature="DPR_ADV_002()[pri:0, instance:com.testcases.DPR_ADV_002_Test@23ceabc1]" name="DPR_ADV_002" duration-ms="3118" started-at="2019-12-10T09:49:28Z" finished-at="2019-12-10T09:49:31Z">
+        <test-method status="PASS" signature="DPR_ADV_002()[pri:0, instance:com.testcases.DPR_ADV_002_Test@23ceabc1]" name="DPR_ADV_002" duration-ms="3058" started-at="2019-12-10T16:37:01Z" finished-at="2019-12-10T16:37:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DPR_ADV_002 -->
       </class> <!-- com.testcases.DPR_ADV_002_Test -->
       <class name="com.testcases.DPR_ADV_001_Test">
-        <test-method status="PASS" signature="DPR_ADV_001()[pri:0, instance:com.testcases.DPR_ADV_001_Test@5dfcfece]" name="DPR_ADV_001" duration-ms="73210" started-at="2019-12-10T09:48:14Z" finished-at="2019-12-10T09:49:28Z">
+        <test-method status="PASS" signature="DPR_ADV_001()[pri:0, instance:com.testcases.DPR_ADV_001_Test@5dfcfece]" name="DPR_ADV_001" duration-ms="56490" started-at="2019-12-10T16:36:04Z" finished-at="2019-12-10T16:37:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DPR_ADV_001 -->

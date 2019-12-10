@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.testcases.DPR_ADV_006_Test">
+      <class name="com.testcases.DPR_ADV_002_Test">
         <methods>
-          <include name="DPR_ADV_006"/>
+          <include name="DPR_ADV_002"/>
         </methods>
-      </class> <!-- com.testcases.DPR_ADV_006_Test -->
+      </class> <!-- com.testcases.DPR_ADV_002_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
