@@ -1,25 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59702" started-at="2019-12-10T16:36:04Z" finished-at="2019-12-10T16:37:04Z">
+  <suite name="Suite" duration-ms="81175" started-at="2019-12-15T07:30:00Z" finished-at="2019-12-15T07:31:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59702" started-at="2019-12-10T16:36:04Z" finished-at="2019-12-10T16:37:04Z">
-      <class name="com.testcases.DPR_ADV_007_Test">
-        <test-method status="PASS" signature="DPR_ADV_007()[pri:0, instance:com.testcases.DPR_ADV_007_Test@5d5eef3d]" name="DPR_ADV_007" duration-ms="73" started-at="2019-12-10T16:37:04Z" finished-at="2019-12-10T16:37:04Z">
+    <test name="Test" duration-ms="81175" started-at="2019-12-15T07:30:00Z" finished-at="2019-12-15T07:31:21Z">
+      <class name="com.testcases.DPR_ADV_009_Test">
+        <test-method status="PASS" signature="DPR_ADV__009()[pri:0, instance:com.testcases.DPR_ADV_009_Test@5d5eef3d]" name="DPR_ADV__009" duration-ms="6374" started-at="2019-12-15T07:31:14Z" finished-at="2019-12-15T07:31:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DPR_ADV_007 -->
-      </class> <!-- com.testcases.DPR_ADV_007_Test -->
+        </test-method> <!-- DPR_ADV__009 -->
+      </class> <!-- com.testcases.DPR_ADV_009_Test -->
       <class name="com.testcases.DPR_ADV_002_Test">
-        <test-method status="PASS" signature="DPR_ADV_002()[pri:0, instance:com.testcases.DPR_ADV_002_Test@23ceabc1]" name="DPR_ADV_002" duration-ms="3058" started-at="2019-12-10T16:37:01Z" finished-at="2019-12-10T16:37:04Z">
+        <test-method status="FAIL" signature="DPR_ADV_002()[pri:0, instance:com.testcases.DPR_ADV_002_Test@23ceabc1]" name="DPR_ADV_002" duration-ms="4385" started-at="2019-12-15T07:31:10Z" finished-at="2019-12-15T07:31:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://havasdpr-dev.bytetale.com/#/advertiser/listadvertiser] but found [http://havasdpr-dev.bytetale.com/#/dprdashboard]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://havasdpr-dev.bytetale.com/#/advertiser/listadvertiser] but found [http://havasdpr-dev.bytetale.com/#/dprdashboard]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.testcases.DPR_ADV_002_Test.DPR_ADV_002(DPR_ADV_002_Test.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DPR_ADV_002 -->
       </class> <!-- com.testcases.DPR_ADV_002_Test -->
       <class name="com.testcases.DPR_ADV_001_Test">
-        <test-method status="PASS" signature="DPR_ADV_001()[pri:0, instance:com.testcases.DPR_ADV_001_Test@5dfcfece]" name="DPR_ADV_001" duration-ms="56490" started-at="2019-12-10T16:36:04Z" finished-at="2019-12-10T16:37:01Z">
+        <test-method status="PASS" signature="DPR_ADV_001()[pri:0, instance:com.testcases.DPR_ADV_001_Test@5dfcfece]" name="DPR_ADV_001" duration-ms="70208" started-at="2019-12-15T07:30:00Z" finished-at="2019-12-15T07:31:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DPR_ADV_001 -->

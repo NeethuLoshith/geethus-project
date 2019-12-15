@@ -18,5 +18,7 @@ public class DPR_ADV_002_Test {
 		AdvTC002.VerifyAdvertiserLink();		
 						
 		Assert.assertEquals(Keywords.get_currentURL(), DPR_ADV_002_Data.EXPECTEDURL);
+		
+		Thread.sleep(2000);
 	}
 }

@@ -11,10 +11,10 @@ public class DPR_ADV_007_Test {
 	
 	@Test
 	
-	public void DPR_ADV_007() {
+	public void DPR_ADV_007() throws InterruptedException {
 		
 	Assert.assertEquals(Keywords.get_text(DPR_ADV_007_Elements.ADD_ADV_Button), DPR_ADV_007_Data.Expected);
-		
+			
 	}
 
 }

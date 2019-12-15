@@ -36,8 +36,9 @@ public class Keywords {
 
 	}
 	
-	public static String get_currentURL() {
-		
+	public static String get_currentURL() 
+	
+	{		
 		return BrowserDrivers.driver.getCurrentUrl();
 	}
 	
@@ -45,9 +46,20 @@ public class Keywords {
 
 	{
 		WebElement element=BrowserDrivers.driver.findElement(By.xpath(locator));
-
 		return element.getText();
 	}
-
+	
+	public static void Refresh()
+	
+	{
+		BrowserDrivers.driver.navigate().refresh();
+	}
+	
+	public static void sendkeys_dropdown(String locator,String value,String locator1)
+	{
+		BrowserDrivers.driver.findElement(By.xpath(locator)).sendKeys(value);		
+		BrowserDrivers.driver.findElement(By.xpath(locator1)).click();
+	}
+	
 	
 	}
